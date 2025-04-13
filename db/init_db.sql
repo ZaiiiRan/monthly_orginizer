@@ -1,0 +1,6 @@
+CREATE TABLE tasks (
+    id BIGSERIAL PRIMARY KEY,
+    date DATE NOT NULL,
+    text TEXT NOT NULL,
+    done BOOLEAN NOT NULL DEFAULT FALSE
+);
